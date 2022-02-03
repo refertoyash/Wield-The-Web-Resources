@@ -1,0 +1,189 @@
+/* Universal property  */
+/* * {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+     
+} */
+
+/* body{ */
+/* background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+/* } */
+
+/* Selectors IN CSS  */
+
+/* 1) Element selector  */
+h1 {
+    color: rgb(42, 42, 126) !important;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* 2) Class selector  */
+.head {
+    background-color: pink;
+}
+
+/* 3) Id selector  */
+#para-1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: powderblue;
+}
+
+/* 4) Grouping of selsctors  */
+.head, #para-1 {
+    color: rgb(82, 1, 1);
+    /* Why it isn't getting reflected on heading ?  */
+    /* Cos in previous property definition we used !important  */
+    /* color: red !important; */
+}
+
+
+
+
+/* ---------STYLING IN CSS --------- */
+
+
+/* 1) FONT STYLING  */
+
+
+h1 {
+    text-transform: uppercase;
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* Not satisfied use google font  */
+
+    font-size: 55px;
+
+
+}
+
+/* Implementing few font properties on p  */
+p {
+    font-size: 23px;
+    line-height: 3rem;
+
+    /* font-weight: bolder; */
+    font-style: italic;
+
+    /* line-height: 112px; */
+
+}
+
+
+/* 2) Colors in CSS  */
+/* (Discuss color picker) */
+
+/* 3) Height Width Borders Background  */
+#para-2 {
+    background-color: rgb(206, 130, 206);
+    border: 11px ridge green;
+    /* border-radius: 10px; */
+
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url(/211836.jpg);
+    /* height: 2500px; */
+    /* width: 2500px; */
+    height: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-position: center center; */
+    /* background-position: bottom right; */
+    background-size: contain;
+    background-size: cover;
+    color: white;
+
+    user-select: none;
+    user-select: all;
+    text-align: center;
+
+}
+
+
+/* Styling of button and link  */
+.btn {
+
+    /* border: 2px solid black; */
+    width: 50px;
+    margin: 30px;
+    padding: 10px;
+    /* text-align: center; */
+    /* border-radius: 40px; */
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    /* background-color: red; */
+}
+
+.btn a {
+    border: 5px double black;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    /* background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%); */
+
+    /* Link to this website : https://cssgradient.io/     go thoruh tis for gradient color */
+    padding: 10px;
+    width: 20px;
+
+}
+
+/* Pseudo Selector  */
+
+.btn a:hover {
+    cursor: pointer;
+    background-color: rgb(132, 196, 13);
+    box-shadow: 2px 2px 2px red;
+}
+
+.btn a:visited {
+    background-color: black;
+    color: white;
+    box-shadow: 12px 12px 2px rgb(238, 132, 132);
+}
+
+.btn a:active {
+    background-color: red;
+}
+
+
+#sec {
+    border: 50px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* Setting icon  */
+.fab {
+    font-size: 40px;
+    color: rgb(106, 161, 224);
+}
+
+.fab:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+#bt-2 {
+    /* display: none; */
+    display: block;
+    width: 500px;
+}
+
+hr {
+    border: 2px dashed red;
+    width: 450px;
+}

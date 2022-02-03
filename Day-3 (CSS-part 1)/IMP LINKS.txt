@@ -1,0 +1,13 @@
+1) To use google fonts in your webpage
+
+https://fonts.google.com/
+
+
+2) To use gradient color
+
+https://cssgradient.io/
+
+3) To create feasible favicon for your title bar
+
+http://tools.dynamicdrive.com/favicon/
+

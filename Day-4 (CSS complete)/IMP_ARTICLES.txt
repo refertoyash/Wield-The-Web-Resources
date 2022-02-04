@@ -1,0 +1,19 @@
+Here I am providing you some important articles to explore more about CSS :
+
+1) To create a drop-down effect :
+https://www.w3schools.com/howto/howto_css_dropdown.asp
+
+
+2)A complete guide to flex-box:
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+3) Inline Vs Block Vs Inline Block 
+https://www.samanthaming.com/pictorials/css-inline-vs-inlineblock-vs-block/
+
+
+4) Difference between px, Rem , Em,%, vw and vh
+https://elementor.com/help/whats-the-difference-between-px-em-rem-vw-and-vh/
+
+
+5)Absolute, Relative, Fixed Positioning: How Do They Differ?
+https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/

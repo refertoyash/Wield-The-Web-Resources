@@ -1,0 +1,206 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+
+}
+
+/* .nav{
+    display: block;
+    display: flex;
+     background:rgb(180, 60, 80);
+    position: sticky;
+    top: 0px;
+} */
+.nav ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    margin: 5px;
+    padding: 5px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    /* margin-right: 130px; */
+}
+
+li {
+    border: 2px double;
+    /* user-select: none; */
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black !important;
+    box-shadow: 4px 4px 2px rgb(13, 114, 13);
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+    text-shadow: 2px 2px 2px rgb(236, 163, 163);
+}
+
+hr {
+    border: 2px dashed;
+    width: 250px;
+
+}
+
+.hr-center {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Discussing flex   */
+.fl-box {
+    display: flex;
+    /* flex-direction:column-reverse; */
+    flex-wrap: wrap;
+    /* flex-wrap:nowrap; */
+    border: 2px solid;
+    margin-top: 50px;
+    justify-content: center;
+    /* justify-content:space-between; */
+    /* justify-content: space-around; */
+    /* discussing align item property */
+    height: 240px;
+    align-items: center;
+    /* align-items: flex-end; */
+
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    /* position:absolute; */
+    /* top: 20px; */
+    width: 50px;
+    height: 50px;
+    /* margin: 50px; */
+
+    /* visibility: hidden; */
+}
+
+.test img {
+    height: 400px;
+    width: 400px;
+    /* height: 100vw;
+    width: 80vw; */
+    display: block;
+    margin: auto;
+    align-items: center;
+    border: 2px dashed red;
+    box-shadow: 10px 10px 12px rgb(186, 195, 219);
+    margin-bottom: 50px;
+}
+ 
+
+/* Now discuss position property  */
+/* Go in line 13  */
+
+
+
+/* Media Queries  */
+
+@media screen and (max-width:411px) {
+    .test img {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+/* Discuss other way  with vw and vh */
+/* Go to line 96  */
+
+
+/* Transition */
+/* Go to line 37  */
+
+/* Trnsform property  */
+
+li:hover {
+    transform: rotate(360deg);
+    /* transform: skew(40deg); */
+    /* transform: translateX(140px); */
+}
+
+
+
+/* Setting animation  */
+
+.container {
+    background-color: white;
+    height: 500px;
+}
+
+.box {
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    animation-name: yash;
+    /* animation-name: yash-1; */
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes yash {
+    from{
+        width: 250px;
+    }
+    to{
+        width: 500px;
+    }
+}
+@keyframes yash-1 {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+
+    25% {
+        top: 0px;
+        left: 400px;
+    }
+
+    75% {
+        top: 300px;
+        left: 400px;
+    }
+
+    100% {
+        top: 300px;
+        left: 0px;
+    }
+
+}
+
+
+/* using fabicon  */
+
+.fab{
+    font-size: 50px;
+    color: yellow;
+}
+.fab:hover{
+    color: red;
+    cursor: pointer;
+}

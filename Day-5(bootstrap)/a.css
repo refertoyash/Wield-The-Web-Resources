@@ -1,0 +1,10 @@
+.table-danger{
+    background-color: red !important;
+    color: rgb(138, 221, 61) !important;
+}
+
+.alert-danger {
+    color: yellow !important;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+}
